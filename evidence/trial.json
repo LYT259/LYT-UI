@@ -1,0 +1,63 @@
+{
+  "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "checks": [
+    {
+      "name": "empty shelf initializes from isolated copied skill",
+      "pass": true
+    },
+    {
+      "name": "empty title rejected with focused error",
+      "pass": true
+    },
+    {
+      "name": "theme and language keep draft",
+      "pass": true
+    },
+    {
+      "name": "Add creates book and clears draft",
+      "pass": true
+    },
+    {
+      "name": "unread filter hides completed book",
+      "pass": true
+    },
+    {
+      "name": "clearing filter restores completed book",
+      "pass": true
+    },
+    {
+      "name": "reload retains book and appearance",
+      "pass": true
+    },
+    {
+      "name": "no horizontal overflow 1280/en",
+      "pass": true
+    },
+    {
+      "name": "no horizontal overflow 1280/zh-Hans",
+      "pass": true
+    },
+    {
+      "name": "no horizontal overflow 390/en",
+      "pass": true
+    },
+    {
+      "name": "no horizontal overflow 390/zh-Hans",
+      "pass": true
+    },
+    {
+      "name": "no horizontal overflow 320/en",
+      "pass": true
+    },
+    {
+      "name": "no horizontal overflow 320/zh-Hans",
+      "pass": true
+    },
+    {
+      "name": "remove restores empty state and input focus",
+      "pass": true
+    }
+  ],
+  "method": "DOM-driven checks in mounted Chromium, isolated temporary copy; self-trial, not independent model evaluation",
+  "timestamp": "2026-11-18T13:26:25.780Z"
+}

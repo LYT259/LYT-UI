@@ -1,0 +1,14 @@
+# Observable verification
+
+Start by stating the target stack/platform and whether the task is new UI or a bounded retrofit. Before changing an existing screen, note business actions, saved values and an unsaved draft that must survive.
+
+1. Resolve both themes and all shipped presets. Check normal text >=4.5:1 and essential nontext >=3:1 on actual adjacent backgrounds, including hover/pressed/selection and semantic states. Mutating the preset must leave data, brand and success/warning/error roles unchanged.
+2. Enter an unsaved value; switch theme and locale, navigate panels, then return. Draft, selection and focus must remain. Save, reload and inspect stored values. Test blocked/corrupt storage without crashing or falsely reporting persisted success.
+3. Navigate from page entry using only keys. Confirm visible focus, one-stop tabs, radio/select behavior, language search with arrows/Enter, Escape returning to trigger, dialog Cancel and focus restoration. IME Enter must not commit a language prematurely. Search no-match must provide recovery.
+4. Use Chinese, English, long-text pseudo locale and Arabic RTL. Inspect wrapping, mixed-direction identifiers, selection markers and input composition. Check actual rendered bounds, not merely presence of dir=rtl. Test plural categories, local dates and number formatting; distinguish key coverage from language review.
+5. Inspect at wide, 390 px and 320 px widths; test 200%/400% zoom or equivalent reflow and larger fonts separately. Inspect active dialogs too. Ensure no horizontal document overflow, offscreen essential controls or hover-only actions. Check reduced-motion and forced-colors with real platform support if available.
+6. Screen reader/device checks need named runtime evidence. If unavailable, mark them unverified. Native-platform support has three separate statuses: specification, reference implementation, actual execution.
+7. For a skill trial, copy the complete skill to a fresh temporary project and use its instructions to build a different non-domain screen. Run that product, inspect behavior and record decisions and limitations. A packaging script alone is not a trial, and a keyword scan is not proof of quality.
+8. Package checks: every relative reference exists, no symlinks outside package, no required private paths, LICENSE travels with the skill, no hidden credentials/logs, and commands work without upstream source. Keep evidence factual and distinguish automated checks from manual observations.
+
+Repository commands: `npm run verify` runs token/state tests and packaging/privacy checks; `npm run build` emits static demo and portable skill; `npm run trial` assembles the independent trial directory for behavioral inspection. Browser checks and their actual results are recorded separately in HANDOFF.md and evidence/; a successful build does not substitute for them.

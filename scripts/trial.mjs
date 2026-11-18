@@ -1,0 +1,13 @@
+import {mkdtemp,cp,readFile,writeFile} from 'node:fs/promises';
+import {tmpdir} from 'node:os';
+import {join} from 'node:path';
+const destination=await mkdtemp(join(tmpdir(),'lyt-ui-shelf-'));
+await cp('trial/index.html',join(destination,'index.html'));
+await cp('trial/app.mjs',join(destination,'app.mjs'));
+await cp('trial/REQUEST.md',join(destination,'REQUEST.md'));
+await cp('skills/lyt-ui',join(destination,'skill'),{recursive:true});
+await cp('scripts/serve.mjs',join(destination,'serve.mjs'));
+const pkg=JSON.parse(await readFile('package.json'));
+await writeFile(join(destination,'skill/VERSION.json'),JSON.stringify({name:'LYT UI',version:pkg.version}));
+console.log(destination);
+console.log('From that temporary directory run: PORT=4174 node serve.mjs .');

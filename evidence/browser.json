@@ -1,0 +1,2662 @@
+{
+  "batches": [
+    {
+      "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "checks": [
+        {
+          "name": "reference initializes in separate browsing context",
+          "pass": true
+        },
+        {
+          "name": "theme and locale retain unsaved draft",
+          "pass": true
+        },
+        {
+          "name": "language commit restores opener focus",
+          "pass": true
+        },
+        {
+          "name": "Arabic sets document direction",
+          "pass": true
+        },
+        {
+          "name": "empty search has recovery",
+          "pass": true
+        },
+        {
+          "name": "clear search restores all choices",
+          "pass": true
+        },
+        {
+          "name": "IME Enter does not commit language",
+          "pass": true
+        },
+        {
+          "name": "rendered palette preserves status/data/brand",
+          "pass": true
+        },
+        {
+          "name": "reset Cancel returns focus and retains mode",
+          "pass": true
+        },
+        {
+          "name": "reset retains workspace draft",
+          "pass": true
+        },
+        {
+          "name": "invalid name keeps input and focuses field",
+          "pass": true
+        },
+        {
+          "name": "valid save updates preview",
+          "pass": true
+        },
+        {
+          "name": "locale retains created note and view selection",
+          "pass": true
+        },
+        {
+          "name": "retry exposes busy state",
+          "pass": true
+        },
+        {
+          "name": "retry completes locally",
+          "pass": true
+        },
+        {
+          "name": "reload retains theme, locale and saved workspace",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 828,
+            "left": 687,
+            "right": 1167,
+            "top": 348
+          },
+          "name": "selector contained 1280/en/light/lyt",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 828,
+            "left": 687,
+            "right": 1167,
+            "top": 348
+          },
+          "name": "selector contained 1280/en/light/sage",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 828,
+            "left": 687,
+            "right": 1167,
+            "top": 348
+          },
+          "name": "selector contained 1280/en/dark/lyt",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 828,
+            "left": 687,
+            "right": 1167,
+            "top": 348
+          },
+          "name": "selector contained 1280/en/dark/sage",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 828,
+            "left": 687,
+            "right": 1167,
+            "top": 348
+          },
+          "name": "selector contained 1280/zh-Hans/light/lyt",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 828,
+            "left": 687,
+            "right": 1167,
+            "top": 348
+          },
+          "name": "selector contained 1280/zh-Hans/light/sage",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 828,
+            "left": 687,
+            "right": 1167,
+            "top": 348
+          },
+          "name": "selector contained 1280/zh-Hans/dark/lyt",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 828,
+            "left": 687,
+            "right": 1167,
+            "top": 348
+          },
+          "name": "selector contained 1280/zh-Hans/dark/sage",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 828,
+            "left": 137.34375,
+            "right": 617.34375,
+            "top": 348
+          },
+          "name": "selector contained 1280/en-XA/light/lyt",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 828,
+            "left": 137.34375,
+            "right": 617.34375,
+            "top": 348
+          },
+          "name": "selector contained 1280/en-XA/light/sage",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 828,
+            "left": 137.34375,
+            "right": 617.34375,
+            "top": 348
+          },
+          "name": "selector contained 1280/en-XA/dark/lyt",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 828,
+            "left": 137.34375,
+            "right": 617.34375,
+            "top": 348
+          },
+          "name": "selector contained 1280/en-XA/dark/sage",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 828,
+            "left": 113,
+            "right": 593,
+            "top": 348
+          },
+          "name": "selector contained 1280/ar/light/lyt",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 828,
+            "left": 113,
+            "right": 593,
+            "top": 348
+          },
+          "name": "selector contained 1280/ar/light/sage",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 828,
+            "left": 113,
+            "right": 593,
+            "top": 348
+          },
+          "name": "selector contained 1280/ar/dark/lyt",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 828,
+            "left": 113,
+            "right": 593,
+            "top": 348
+          },
+          "name": "selector contained 1280/ar/dark/sage",
+          "pass": true
+        },
+        {
+          "name": "requested panel layouts fit viewport",
+          "pass": true
+        },
+        {
+          "detail": {
+            "outside": [],
+            "scrollWidth": 390,
+            "width": 390
+          },
+          "name": "200% text resize at 390 px has no document overflow",
+          "pass": true
+        }
+      ],
+      "layouts": [
+        {
+          "locale": "en",
+          "mode": "light",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "lyt",
+          "width": 1280
+        },
+        {
+          "locale": "en",
+          "mode": "light",
+          "panel": "language",
+          "pass": true,
+          "preset": "lyt",
+          "width": 1280
+        },
+        {
+          "locale": "en",
+          "mode": "light",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "lyt",
+          "width": 1280
+        },
+        {
+          "locale": "en",
+          "mode": "light",
+          "panel": "controls",
+          "pass": true,
+          "preset": "lyt",
+          "width": 1280
+        },
+        {
+          "locale": "en",
+          "mode": "light",
+          "panel": "about",
+          "pass": true,
+          "preset": "lyt",
+          "width": 1280
+        },
+        {
+          "locale": "en",
+          "mode": "light",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "sage",
+          "width": 1280
+        },
+        {
+          "locale": "en",
+          "mode": "light",
+          "panel": "language",
+          "pass": true,
+          "preset": "sage",
+          "width": 1280
+        },
+        {
+          "locale": "en",
+          "mode": "light",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "sage",
+          "width": 1280
+        },
+        {
+          "locale": "en",
+          "mode": "light",
+          "panel": "controls",
+          "pass": true,
+          "preset": "sage",
+          "width": 1280
+        },
+        {
+          "locale": "en",
+          "mode": "light",
+          "panel": "about",
+          "pass": true,
+          "preset": "sage",
+          "width": 1280
+        },
+        {
+          "locale": "en",
+          "mode": "dark",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "lyt",
+          "width": 1280
+        },
+        {
+          "locale": "en",
+          "mode": "dark",
+          "panel": "language",
+          "pass": true,
+          "preset": "lyt",
+          "width": 1280
+        },
+        {
+          "locale": "en",
+          "mode": "dark",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "lyt",
+          "width": 1280
+        },
+        {
+          "locale": "en",
+          "mode": "dark",
+          "panel": "controls",
+          "pass": true,
+          "preset": "lyt",
+          "width": 1280
+        },
+        {
+          "locale": "en",
+          "mode": "dark",
+          "panel": "about",
+          "pass": true,
+          "preset": "lyt",
+          "width": 1280
+        },
+        {
+          "locale": "en",
+          "mode": "dark",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "sage",
+          "width": 1280
+        },
+        {
+          "locale": "en",
+          "mode": "dark",
+          "panel": "language",
+          "pass": true,
+          "preset": "sage",
+          "width": 1280
+        },
+        {
+          "locale": "en",
+          "mode": "dark",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "sage",
+          "width": 1280
+        },
+        {
+          "locale": "en",
+          "mode": "dark",
+          "panel": "controls",
+          "pass": true,
+          "preset": "sage",
+          "width": 1280
+        },
+        {
+          "locale": "en",
+          "mode": "dark",
+          "panel": "about",
+          "pass": true,
+          "preset": "sage",
+          "width": 1280
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "light",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "lyt",
+          "width": 1280
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "light",
+          "panel": "language",
+          "pass": true,
+          "preset": "lyt",
+          "width": 1280
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "light",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "lyt",
+          "width": 1280
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "light",
+          "panel": "controls",
+          "pass": true,
+          "preset": "lyt",
+          "width": 1280
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "light",
+          "panel": "about",
+          "pass": true,
+          "preset": "lyt",
+          "width": 1280
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "light",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "sage",
+          "width": 1280
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "light",
+          "panel": "language",
+          "pass": true,
+          "preset": "sage",
+          "width": 1280
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "light",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "sage",
+          "width": 1280
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "light",
+          "panel": "controls",
+          "pass": true,
+          "preset": "sage",
+          "width": 1280
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "light",
+          "panel": "about",
+          "pass": true,
+          "preset": "sage",
+          "width": 1280
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "dark",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "lyt",
+          "width": 1280
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "dark",
+          "panel": "language",
+          "pass": true,
+          "preset": "lyt",
+          "width": 1280
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "dark",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "lyt",
+          "width": 1280
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "dark",
+          "panel": "controls",
+          "pass": true,
+          "preset": "lyt",
+          "width": 1280
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "dark",
+          "panel": "about",
+          "pass": true,
+          "preset": "lyt",
+          "width": 1280
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "dark",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "sage",
+          "width": 1280
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "dark",
+          "panel": "language",
+          "pass": true,
+          "preset": "sage",
+          "width": 1280
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "dark",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "sage",
+          "width": 1280
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "dark",
+          "panel": "controls",
+          "pass": true,
+          "preset": "sage",
+          "width": 1280
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "dark",
+          "panel": "about",
+          "pass": true,
+          "preset": "sage",
+          "width": 1280
+        },
+        {
+          "locale": "en-XA",
+          "mode": "light",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "lyt",
+          "width": 1280
+        },
+        {
+          "locale": "en-XA",
+          "mode": "light",
+          "panel": "language",
+          "pass": true,
+          "preset": "lyt",
+          "width": 1280
+        },
+        {
+          "locale": "en-XA",
+          "mode": "light",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "lyt",
+          "width": 1280
+        },
+        {
+          "locale": "en-XA",
+          "mode": "light",
+          "panel": "controls",
+          "pass": true,
+          "preset": "lyt",
+          "width": 1280
+        },
+        {
+          "locale": "en-XA",
+          "mode": "light",
+          "panel": "about",
+          "pass": true,
+          "preset": "lyt",
+          "width": 1280
+        },
+        {
+          "locale": "en-XA",
+          "mode": "light",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "sage",
+          "width": 1280
+        },
+        {
+          "locale": "en-XA",
+          "mode": "light",
+          "panel": "language",
+          "pass": true,
+          "preset": "sage",
+          "width": 1280
+        },
+        {
+          "locale": "en-XA",
+          "mode": "light",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "sage",
+          "width": 1280
+        },
+        {
+          "locale": "en-XA",
+          "mode": "light",
+          "panel": "controls",
+          "pass": true,
+          "preset": "sage",
+          "width": 1280
+        },
+        {
+          "locale": "en-XA",
+          "mode": "light",
+          "panel": "about",
+          "pass": true,
+          "preset": "sage",
+          "width": 1280
+        },
+        {
+          "locale": "en-XA",
+          "mode": "dark",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "lyt",
+          "width": 1280
+        },
+        {
+          "locale": "en-XA",
+          "mode": "dark",
+          "panel": "language",
+          "pass": true,
+          "preset": "lyt",
+          "width": 1280
+        },
+        {
+          "locale": "en-XA",
+          "mode": "dark",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "lyt",
+          "width": 1280
+        },
+        {
+          "locale": "en-XA",
+          "mode": "dark",
+          "panel": "controls",
+          "pass": true,
+          "preset": "lyt",
+          "width": 1280
+        },
+        {
+          "locale": "en-XA",
+          "mode": "dark",
+          "panel": "about",
+          "pass": true,
+          "preset": "lyt",
+          "width": 1280
+        },
+        {
+          "locale": "en-XA",
+          "mode": "dark",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "sage",
+          "width": 1280
+        },
+        {
+          "locale": "en-XA",
+          "mode": "dark",
+          "panel": "language",
+          "pass": true,
+          "preset": "sage",
+          "width": 1280
+        },
+        {
+          "locale": "en-XA",
+          "mode": "dark",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "sage",
+          "width": 1280
+        },
+        {
+          "locale": "en-XA",
+          "mode": "dark",
+          "panel": "controls",
+          "pass": true,
+          "preset": "sage",
+          "width": 1280
+        },
+        {
+          "locale": "en-XA",
+          "mode": "dark",
+          "panel": "about",
+          "pass": true,
+          "preset": "sage",
+          "width": 1280
+        },
+        {
+          "locale": "ar",
+          "mode": "light",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "lyt",
+          "width": 1280
+        },
+        {
+          "locale": "ar",
+          "mode": "light",
+          "panel": "language",
+          "pass": true,
+          "preset": "lyt",
+          "width": 1280
+        },
+        {
+          "locale": "ar",
+          "mode": "light",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "lyt",
+          "width": 1280
+        },
+        {
+          "locale": "ar",
+          "mode": "light",
+          "panel": "controls",
+          "pass": true,
+          "preset": "lyt",
+          "width": 1280
+        },
+        {
+          "locale": "ar",
+          "mode": "light",
+          "panel": "about",
+          "pass": true,
+          "preset": "lyt",
+          "width": 1280
+        },
+        {
+          "locale": "ar",
+          "mode": "light",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "sage",
+          "width": 1280
+        },
+        {
+          "locale": "ar",
+          "mode": "light",
+          "panel": "language",
+          "pass": true,
+          "preset": "sage",
+          "width": 1280
+        },
+        {
+          "locale": "ar",
+          "mode": "light",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "sage",
+          "width": 1280
+        },
+        {
+          "locale": "ar",
+          "mode": "light",
+          "panel": "controls",
+          "pass": true,
+          "preset": "sage",
+          "width": 1280
+        },
+        {
+          "locale": "ar",
+          "mode": "light",
+          "panel": "about",
+          "pass": true,
+          "preset": "sage",
+          "width": 1280
+        },
+        {
+          "locale": "ar",
+          "mode": "dark",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "lyt",
+          "width": 1280
+        },
+        {
+          "locale": "ar",
+          "mode": "dark",
+          "panel": "language",
+          "pass": true,
+          "preset": "lyt",
+          "width": 1280
+        },
+        {
+          "locale": "ar",
+          "mode": "dark",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "lyt",
+          "width": 1280
+        },
+        {
+          "locale": "ar",
+          "mode": "dark",
+          "panel": "controls",
+          "pass": true,
+          "preset": "lyt",
+          "width": 1280
+        },
+        {
+          "locale": "ar",
+          "mode": "dark",
+          "panel": "about",
+          "pass": true,
+          "preset": "lyt",
+          "width": 1280
+        },
+        {
+          "locale": "ar",
+          "mode": "dark",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "sage",
+          "width": 1280
+        },
+        {
+          "locale": "ar",
+          "mode": "dark",
+          "panel": "language",
+          "pass": true,
+          "preset": "sage",
+          "width": 1280
+        },
+        {
+          "locale": "ar",
+          "mode": "dark",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "sage",
+          "width": 1280
+        },
+        {
+          "locale": "ar",
+          "mode": "dark",
+          "panel": "controls",
+          "pass": true,
+          "preset": "sage",
+          "width": 1280
+        },
+        {
+          "locale": "ar",
+          "mode": "dark",
+          "panel": "about",
+          "pass": true,
+          "preset": "sage",
+          "width": 1280
+        }
+      ],
+      "method": "DOM-driven checks in actual same-origin browser iframe; no native-device or trusted-keyboard claim",
+      "timestamp": "2026-11-18T13:22:53.239Z"
+    },
+    {
+      "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "checks": [
+        {
+          "name": "reference initializes in separate browsing context",
+          "pass": true
+        },
+        {
+          "name": "theme and locale retain unsaved draft",
+          "pass": true
+        },
+        {
+          "name": "language commit restores opener focus",
+          "pass": true
+        },
+        {
+          "name": "Arabic sets document direction",
+          "pass": true
+        },
+        {
+          "name": "empty search has recovery",
+          "pass": true
+        },
+        {
+          "name": "clear search restores all choices",
+          "pass": true
+        },
+        {
+          "name": "IME Enter does not commit language",
+          "pass": true
+        },
+        {
+          "name": "rendered palette preserves status/data/brand",
+          "pass": true
+        },
+        {
+          "name": "reset Cancel returns focus and retains mode",
+          "pass": true
+        },
+        {
+          "name": "reset retains workspace draft",
+          "pass": true
+        },
+        {
+          "name": "invalid name keeps input and focuses field",
+          "pass": true
+        },
+        {
+          "name": "valid save updates preview",
+          "pass": true
+        },
+        {
+          "name": "locale retains created note and view selection",
+          "pass": true
+        },
+        {
+          "name": "retry exposes busy state",
+          "pass": true
+        },
+        {
+          "name": "retry completes locally",
+          "pass": true
+        },
+        {
+          "name": "reload retains theme, locale and saved workspace",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 844,
+            "left": 0,
+            "right": 390,
+            "top": 316.078125
+          },
+          "name": "selector contained 390/en/light/lyt",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 844,
+            "left": 0,
+            "right": 390,
+            "top": 316.078125
+          },
+          "name": "selector contained 390/en/light/sage",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 844,
+            "left": 0,
+            "right": 390,
+            "top": 316.078125
+          },
+          "name": "selector contained 390/en/dark/lyt",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 844,
+            "left": 0,
+            "right": 390,
+            "top": 316.078125
+          },
+          "name": "selector contained 390/en/dark/sage",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 844,
+            "left": 0,
+            "right": 390,
+            "top": 316.078125
+          },
+          "name": "selector contained 390/zh-Hans/light/lyt",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 844,
+            "left": 0,
+            "right": 390,
+            "top": 316.078125
+          },
+          "name": "selector contained 390/zh-Hans/light/sage",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 844,
+            "left": 0,
+            "right": 390,
+            "top": 316.078125
+          },
+          "name": "selector contained 390/zh-Hans/dark/lyt",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 844,
+            "left": 0,
+            "right": 390,
+            "top": 316.078125
+          },
+          "name": "selector contained 390/zh-Hans/dark/sage",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 844,
+            "left": 0,
+            "right": 390,
+            "top": 16
+          },
+          "name": "selector contained 390/en-XA/light/lyt",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 844,
+            "left": 0,
+            "right": 390,
+            "top": 16
+          },
+          "name": "selector contained 390/en-XA/light/sage",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 844,
+            "left": 0,
+            "right": 390,
+            "top": 16
+          },
+          "name": "selector contained 390/en-XA/dark/lyt",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 844,
+            "left": 0,
+            "right": 390,
+            "top": 16
+          },
+          "name": "selector contained 390/en-XA/dark/sage",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 844,
+            "left": 0,
+            "right": 390,
+            "top": 316.078125
+          },
+          "name": "selector contained 390/ar/light/lyt",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 844,
+            "left": 0,
+            "right": 390,
+            "top": 316.078125
+          },
+          "name": "selector contained 390/ar/light/sage",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 844,
+            "left": 0,
+            "right": 390,
+            "top": 316.078125
+          },
+          "name": "selector contained 390/ar/dark/lyt",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 844,
+            "left": 0,
+            "right": 390,
+            "top": 316.078125
+          },
+          "name": "selector contained 390/ar/dark/sage",
+          "pass": true
+        },
+        {
+          "name": "requested panel layouts fit viewport",
+          "pass": true
+        },
+        {
+          "detail": {
+            "outside": [],
+            "scrollWidth": 390,
+            "width": 390
+          },
+          "name": "200% text resize at 390 px has no document overflow",
+          "pass": true
+        }
+      ],
+      "layouts": [
+        {
+          "locale": "en",
+          "mode": "light",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "lyt",
+          "width": 390
+        },
+        {
+          "locale": "en",
+          "mode": "light",
+          "panel": "language",
+          "pass": true,
+          "preset": "lyt",
+          "width": 390
+        },
+        {
+          "locale": "en",
+          "mode": "light",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "lyt",
+          "width": 390
+        },
+        {
+          "locale": "en",
+          "mode": "light",
+          "panel": "controls",
+          "pass": true,
+          "preset": "lyt",
+          "width": 390
+        },
+        {
+          "locale": "en",
+          "mode": "light",
+          "panel": "about",
+          "pass": true,
+          "preset": "lyt",
+          "width": 390
+        },
+        {
+          "locale": "en",
+          "mode": "light",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "sage",
+          "width": 390
+        },
+        {
+          "locale": "en",
+          "mode": "light",
+          "panel": "language",
+          "pass": true,
+          "preset": "sage",
+          "width": 390
+        },
+        {
+          "locale": "en",
+          "mode": "light",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "sage",
+          "width": 390
+        },
+        {
+          "locale": "en",
+          "mode": "light",
+          "panel": "controls",
+          "pass": true,
+          "preset": "sage",
+          "width": 390
+        },
+        {
+          "locale": "en",
+          "mode": "light",
+          "panel": "about",
+          "pass": true,
+          "preset": "sage",
+          "width": 390
+        },
+        {
+          "locale": "en",
+          "mode": "dark",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "lyt",
+          "width": 390
+        },
+        {
+          "locale": "en",
+          "mode": "dark",
+          "panel": "language",
+          "pass": true,
+          "preset": "lyt",
+          "width": 390
+        },
+        {
+          "locale": "en",
+          "mode": "dark",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "lyt",
+          "width": 390
+        },
+        {
+          "locale": "en",
+          "mode": "dark",
+          "panel": "controls",
+          "pass": true,
+          "preset": "lyt",
+          "width": 390
+        },
+        {
+          "locale": "en",
+          "mode": "dark",
+          "panel": "about",
+          "pass": true,
+          "preset": "lyt",
+          "width": 390
+        },
+        {
+          "locale": "en",
+          "mode": "dark",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "sage",
+          "width": 390
+        },
+        {
+          "locale": "en",
+          "mode": "dark",
+          "panel": "language",
+          "pass": true,
+          "preset": "sage",
+          "width": 390
+        },
+        {
+          "locale": "en",
+          "mode": "dark",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "sage",
+          "width": 390
+        },
+        {
+          "locale": "en",
+          "mode": "dark",
+          "panel": "controls",
+          "pass": true,
+          "preset": "sage",
+          "width": 390
+        },
+        {
+          "locale": "en",
+          "mode": "dark",
+          "panel": "about",
+          "pass": true,
+          "preset": "sage",
+          "width": 390
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "light",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "lyt",
+          "width": 390
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "light",
+          "panel": "language",
+          "pass": true,
+          "preset": "lyt",
+          "width": 390
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "light",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "lyt",
+          "width": 390
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "light",
+          "panel": "controls",
+          "pass": true,
+          "preset": "lyt",
+          "width": 390
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "light",
+          "panel": "about",
+          "pass": true,
+          "preset": "lyt",
+          "width": 390
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "light",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "sage",
+          "width": 390
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "light",
+          "panel": "language",
+          "pass": true,
+          "preset": "sage",
+          "width": 390
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "light",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "sage",
+          "width": 390
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "light",
+          "panel": "controls",
+          "pass": true,
+          "preset": "sage",
+          "width": 390
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "light",
+          "panel": "about",
+          "pass": true,
+          "preset": "sage",
+          "width": 390
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "dark",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "lyt",
+          "width": 390
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "dark",
+          "panel": "language",
+          "pass": true,
+          "preset": "lyt",
+          "width": 390
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "dark",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "lyt",
+          "width": 390
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "dark",
+          "panel": "controls",
+          "pass": true,
+          "preset": "lyt",
+          "width": 390
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "dark",
+          "panel": "about",
+          "pass": true,
+          "preset": "lyt",
+          "width": 390
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "dark",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "sage",
+          "width": 390
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "dark",
+          "panel": "language",
+          "pass": true,
+          "preset": "sage",
+          "width": 390
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "dark",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "sage",
+          "width": 390
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "dark",
+          "panel": "controls",
+          "pass": true,
+          "preset": "sage",
+          "width": 390
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "dark",
+          "panel": "about",
+          "pass": true,
+          "preset": "sage",
+          "width": 390
+        },
+        {
+          "locale": "en-XA",
+          "mode": "light",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "lyt",
+          "width": 390
+        },
+        {
+          "locale": "en-XA",
+          "mode": "light",
+          "panel": "language",
+          "pass": true,
+          "preset": "lyt",
+          "width": 390
+        },
+        {
+          "locale": "en-XA",
+          "mode": "light",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "lyt",
+          "width": 390
+        },
+        {
+          "locale": "en-XA",
+          "mode": "light",
+          "panel": "controls",
+          "pass": true,
+          "preset": "lyt",
+          "width": 390
+        },
+        {
+          "locale": "en-XA",
+          "mode": "light",
+          "panel": "about",
+          "pass": true,
+          "preset": "lyt",
+          "width": 390
+        },
+        {
+          "locale": "en-XA",
+          "mode": "light",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "sage",
+          "width": 390
+        },
+        {
+          "locale": "en-XA",
+          "mode": "light",
+          "panel": "language",
+          "pass": true,
+          "preset": "sage",
+          "width": 390
+        },
+        {
+          "locale": "en-XA",
+          "mode": "light",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "sage",
+          "width": 390
+        },
+        {
+          "locale": "en-XA",
+          "mode": "light",
+          "panel": "controls",
+          "pass": true,
+          "preset": "sage",
+          "width": 390
+        },
+        {
+          "locale": "en-XA",
+          "mode": "light",
+          "panel": "about",
+          "pass": true,
+          "preset": "sage",
+          "width": 390
+        },
+        {
+          "locale": "en-XA",
+          "mode": "dark",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "lyt",
+          "width": 390
+        },
+        {
+          "locale": "en-XA",
+          "mode": "dark",
+          "panel": "language",
+          "pass": true,
+          "preset": "lyt",
+          "width": 390
+        },
+        {
+          "locale": "en-XA",
+          "mode": "dark",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "lyt",
+          "width": 390
+        },
+        {
+          "locale": "en-XA",
+          "mode": "dark",
+          "panel": "controls",
+          "pass": true,
+          "preset": "lyt",
+          "width": 390
+        },
+        {
+          "locale": "en-XA",
+          "mode": "dark",
+          "panel": "about",
+          "pass": true,
+          "preset": "lyt",
+          "width": 390
+        },
+        {
+          "locale": "en-XA",
+          "mode": "dark",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "sage",
+          "width": 390
+        },
+        {
+          "locale": "en-XA",
+          "mode": "dark",
+          "panel": "language",
+          "pass": true,
+          "preset": "sage",
+          "width": 390
+        },
+        {
+          "locale": "en-XA",
+          "mode": "dark",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "sage",
+          "width": 390
+        },
+        {
+          "locale": "en-XA",
+          "mode": "dark",
+          "panel": "controls",
+          "pass": true,
+          "preset": "sage",
+          "width": 390
+        },
+        {
+          "locale": "en-XA",
+          "mode": "dark",
+          "panel": "about",
+          "pass": true,
+          "preset": "sage",
+          "width": 390
+        },
+        {
+          "locale": "ar",
+          "mode": "light",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "lyt",
+          "width": 390
+        },
+        {
+          "locale": "ar",
+          "mode": "light",
+          "panel": "language",
+          "pass": true,
+          "preset": "lyt",
+          "width": 390
+        },
+        {
+          "locale": "ar",
+          "mode": "light",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "lyt",
+          "width": 390
+        },
+        {
+          "locale": "ar",
+          "mode": "light",
+          "panel": "controls",
+          "pass": true,
+          "preset": "lyt",
+          "width": 390
+        },
+        {
+          "locale": "ar",
+          "mode": "light",
+          "panel": "about",
+          "pass": true,
+          "preset": "lyt",
+          "width": 390
+        },
+        {
+          "locale": "ar",
+          "mode": "light",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "sage",
+          "width": 390
+        },
+        {
+          "locale": "ar",
+          "mode": "light",
+          "panel": "language",
+          "pass": true,
+          "preset": "sage",
+          "width": 390
+        },
+        {
+          "locale": "ar",
+          "mode": "light",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "sage",
+          "width": 390
+        },
+        {
+          "locale": "ar",
+          "mode": "light",
+          "panel": "controls",
+          "pass": true,
+          "preset": "sage",
+          "width": 390
+        },
+        {
+          "locale": "ar",
+          "mode": "light",
+          "panel": "about",
+          "pass": true,
+          "preset": "sage",
+          "width": 390
+        },
+        {
+          "locale": "ar",
+          "mode": "dark",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "lyt",
+          "width": 390
+        },
+        {
+          "locale": "ar",
+          "mode": "dark",
+          "panel": "language",
+          "pass": true,
+          "preset": "lyt",
+          "width": 390
+        },
+        {
+          "locale": "ar",
+          "mode": "dark",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "lyt",
+          "width": 390
+        },
+        {
+          "locale": "ar",
+          "mode": "dark",
+          "panel": "controls",
+          "pass": true,
+          "preset": "lyt",
+          "width": 390
+        },
+        {
+          "locale": "ar",
+          "mode": "dark",
+          "panel": "about",
+          "pass": true,
+          "preset": "lyt",
+          "width": 390
+        },
+        {
+          "locale": "ar",
+          "mode": "dark",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "sage",
+          "width": 390
+        },
+        {
+          "locale": "ar",
+          "mode": "dark",
+          "panel": "language",
+          "pass": true,
+          "preset": "sage",
+          "width": 390
+        },
+        {
+          "locale": "ar",
+          "mode": "dark",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "sage",
+          "width": 390
+        },
+        {
+          "locale": "ar",
+          "mode": "dark",
+          "panel": "controls",
+          "pass": true,
+          "preset": "sage",
+          "width": 390
+        },
+        {
+          "locale": "ar",
+          "mode": "dark",
+          "panel": "about",
+          "pass": true,
+          "preset": "sage",
+          "width": 390
+        }
+      ],
+      "method": "DOM-driven checks in actual same-origin browser iframe; no native-device or trusted-keyboard claim",
+      "timestamp": "2026-11-18T13:22:55.713Z"
+    },
+    {
+      "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "checks": [
+        {
+          "name": "reference initializes in separate browsing context",
+          "pass": true
+        },
+        {
+          "name": "theme and locale retain unsaved draft",
+          "pass": true
+        },
+        {
+          "name": "language commit restores opener focus",
+          "pass": true
+        },
+        {
+          "name": "Arabic sets document direction",
+          "pass": true
+        },
+        {
+          "name": "empty search has recovery",
+          "pass": true
+        },
+        {
+          "name": "clear search restores all choices",
+          "pass": true
+        },
+        {
+          "name": "IME Enter does not commit language",
+          "pass": true
+        },
+        {
+          "name": "rendered palette preserves status/data/brand",
+          "pass": true
+        },
+        {
+          "name": "reset Cancel returns focus and retains mode",
+          "pass": true
+        },
+        {
+          "name": "reset retains workspace draft",
+          "pass": true
+        },
+        {
+          "name": "invalid name keeps input and focuses field",
+          "pass": true
+        },
+        {
+          "name": "valid save updates preview",
+          "pass": true
+        },
+        {
+          "name": "locale retains created note and view selection",
+          "pass": true
+        },
+        {
+          "name": "retry exposes busy state",
+          "pass": true
+        },
+        {
+          "name": "retry completes locally",
+          "pass": true
+        },
+        {
+          "name": "reload retains theme, locale and saved workspace",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 844,
+            "left": 0,
+            "right": 320,
+            "top": 316.078125
+          },
+          "name": "selector contained 320/en/light/lyt",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 844,
+            "left": 0,
+            "right": 320,
+            "top": 316.078125
+          },
+          "name": "selector contained 320/en/light/sage",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 844,
+            "left": 0,
+            "right": 320,
+            "top": 316.078125
+          },
+          "name": "selector contained 320/en/dark/lyt",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 844,
+            "left": 0,
+            "right": 320,
+            "top": 316.078125
+          },
+          "name": "selector contained 320/en/dark/sage",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 844,
+            "left": 0,
+            "right": 320,
+            "top": 316.078125
+          },
+          "name": "selector contained 320/zh-Hans/light/lyt",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 844,
+            "left": 0,
+            "right": 320,
+            "top": 316.078125
+          },
+          "name": "selector contained 320/zh-Hans/light/sage",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 844,
+            "left": 0,
+            "right": 320,
+            "top": 316.078125
+          },
+          "name": "selector contained 320/zh-Hans/dark/lyt",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 844,
+            "left": 0,
+            "right": 320,
+            "top": 316.078125
+          },
+          "name": "selector contained 320/zh-Hans/dark/sage",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 844,
+            "left": 0,
+            "right": 320,
+            "top": 154.515625
+          },
+          "name": "selector contained 320/en-XA/light/lyt",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 844,
+            "left": 0,
+            "right": 320,
+            "top": 154.515625
+          },
+          "name": "selector contained 320/en-XA/light/sage",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 844,
+            "left": 0,
+            "right": 320,
+            "top": 154.515625
+          },
+          "name": "selector contained 320/en-XA/dark/lyt",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 844,
+            "left": 0,
+            "right": 320,
+            "top": 154.515625
+          },
+          "name": "selector contained 320/en-XA/dark/sage",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 844,
+            "left": 0,
+            "right": 320,
+            "top": 316.078125
+          },
+          "name": "selector contained 320/ar/light/lyt",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 844,
+            "left": 0,
+            "right": 320,
+            "top": 316.078125
+          },
+          "name": "selector contained 320/ar/light/sage",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 844,
+            "left": 0,
+            "right": 320,
+            "top": 316.078125
+          },
+          "name": "selector contained 320/ar/dark/lyt",
+          "pass": true
+        },
+        {
+          "detail": {
+            "bottom": 844,
+            "left": 0,
+            "right": 320,
+            "top": 316.078125
+          },
+          "name": "selector contained 320/ar/dark/sage",
+          "pass": true
+        },
+        {
+          "name": "requested panel layouts fit viewport",
+          "pass": true
+        },
+        {
+          "detail": {
+            "outside": [],
+            "scrollWidth": 390,
+            "width": 390
+          },
+          "name": "200% text resize at 390 px has no document overflow",
+          "pass": true
+        }
+      ],
+      "layouts": [
+        {
+          "locale": "en",
+          "mode": "light",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "lyt",
+          "width": 320
+        },
+        {
+          "locale": "en",
+          "mode": "light",
+          "panel": "language",
+          "pass": true,
+          "preset": "lyt",
+          "width": 320
+        },
+        {
+          "locale": "en",
+          "mode": "light",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "lyt",
+          "width": 320
+        },
+        {
+          "locale": "en",
+          "mode": "light",
+          "panel": "controls",
+          "pass": true,
+          "preset": "lyt",
+          "width": 320
+        },
+        {
+          "locale": "en",
+          "mode": "light",
+          "panel": "about",
+          "pass": true,
+          "preset": "lyt",
+          "width": 320
+        },
+        {
+          "locale": "en",
+          "mode": "light",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "sage",
+          "width": 320
+        },
+        {
+          "locale": "en",
+          "mode": "light",
+          "panel": "language",
+          "pass": true,
+          "preset": "sage",
+          "width": 320
+        },
+        {
+          "locale": "en",
+          "mode": "light",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "sage",
+          "width": 320
+        },
+        {
+          "locale": "en",
+          "mode": "light",
+          "panel": "controls",
+          "pass": true,
+          "preset": "sage",
+          "width": 320
+        },
+        {
+          "locale": "en",
+          "mode": "light",
+          "panel": "about",
+          "pass": true,
+          "preset": "sage",
+          "width": 320
+        },
+        {
+          "locale": "en",
+          "mode": "dark",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "lyt",
+          "width": 320
+        },
+        {
+          "locale": "en",
+          "mode": "dark",
+          "panel": "language",
+          "pass": true,
+          "preset": "lyt",
+          "width": 320
+        },
+        {
+          "locale": "en",
+          "mode": "dark",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "lyt",
+          "width": 320
+        },
+        {
+          "locale": "en",
+          "mode": "dark",
+          "panel": "controls",
+          "pass": true,
+          "preset": "lyt",
+          "width": 320
+        },
+        {
+          "locale": "en",
+          "mode": "dark",
+          "panel": "about",
+          "pass": true,
+          "preset": "lyt",
+          "width": 320
+        },
+        {
+          "locale": "en",
+          "mode": "dark",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "sage",
+          "width": 320
+        },
+        {
+          "locale": "en",
+          "mode": "dark",
+          "panel": "language",
+          "pass": true,
+          "preset": "sage",
+          "width": 320
+        },
+        {
+          "locale": "en",
+          "mode": "dark",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "sage",
+          "width": 320
+        },
+        {
+          "locale": "en",
+          "mode": "dark",
+          "panel": "controls",
+          "pass": true,
+          "preset": "sage",
+          "width": 320
+        },
+        {
+          "locale": "en",
+          "mode": "dark",
+          "panel": "about",
+          "pass": true,
+          "preset": "sage",
+          "width": 320
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "light",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "lyt",
+          "width": 320
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "light",
+          "panel": "language",
+          "pass": true,
+          "preset": "lyt",
+          "width": 320
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "light",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "lyt",
+          "width": 320
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "light",
+          "panel": "controls",
+          "pass": true,
+          "preset": "lyt",
+          "width": 320
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "light",
+          "panel": "about",
+          "pass": true,
+          "preset": "lyt",
+          "width": 320
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "light",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "sage",
+          "width": 320
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "light",
+          "panel": "language",
+          "pass": true,
+          "preset": "sage",
+          "width": 320
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "light",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "sage",
+          "width": 320
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "light",
+          "panel": "controls",
+          "pass": true,
+          "preset": "sage",
+          "width": 320
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "light",
+          "panel": "about",
+          "pass": true,
+          "preset": "sage",
+          "width": 320
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "dark",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "lyt",
+          "width": 320
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "dark",
+          "panel": "language",
+          "pass": true,
+          "preset": "lyt",
+          "width": 320
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "dark",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "lyt",
+          "width": 320
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "dark",
+          "panel": "controls",
+          "pass": true,
+          "preset": "lyt",
+          "width": 320
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "dark",
+          "panel": "about",
+          "pass": true,
+          "preset": "lyt",
+          "width": 320
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "dark",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "sage",
+          "width": 320
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "dark",
+          "panel": "language",
+          "pass": true,
+          "preset": "sage",
+          "width": 320
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "dark",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "sage",
+          "width": 320
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "dark",
+          "panel": "controls",
+          "pass": true,
+          "preset": "sage",
+          "width": 320
+        },
+        {
+          "locale": "zh-Hans",
+          "mode": "dark",
+          "panel": "about",
+          "pass": true,
+          "preset": "sage",
+          "width": 320
+        },
+        {
+          "locale": "en-XA",
+          "mode": "light",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "lyt",
+          "width": 320
+        },
+        {
+          "locale": "en-XA",
+          "mode": "light",
+          "panel": "language",
+          "pass": true,
+          "preset": "lyt",
+          "width": 320
+        },
+        {
+          "locale": "en-XA",
+          "mode": "light",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "lyt",
+          "width": 320
+        },
+        {
+          "locale": "en-XA",
+          "mode": "light",
+          "panel": "controls",
+          "pass": true,
+          "preset": "lyt",
+          "width": 320
+        },
+        {
+          "locale": "en-XA",
+          "mode": "light",
+          "panel": "about",
+          "pass": true,
+          "preset": "lyt",
+          "width": 320
+        },
+        {
+          "locale": "en-XA",
+          "mode": "light",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "sage",
+          "width": 320
+        },
+        {
+          "locale": "en-XA",
+          "mode": "light",
+          "panel": "language",
+          "pass": true,
+          "preset": "sage",
+          "width": 320
+        },
+        {
+          "locale": "en-XA",
+          "mode": "light",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "sage",
+          "width": 320
+        },
+        {
+          "locale": "en-XA",
+          "mode": "light",
+          "panel": "controls",
+          "pass": true,
+          "preset": "sage",
+          "width": 320
+        },
+        {
+          "locale": "en-XA",
+          "mode": "light",
+          "panel": "about",
+          "pass": true,
+          "preset": "sage",
+          "width": 320
+        },
+        {
+          "locale": "en-XA",
+          "mode": "dark",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "lyt",
+          "width": 320
+        },
+        {
+          "locale": "en-XA",
+          "mode": "dark",
+          "panel": "language",
+          "pass": true,
+          "preset": "lyt",
+          "width": 320
+        },
+        {
+          "locale": "en-XA",
+          "mode": "dark",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "lyt",
+          "width": 320
+        },
+        {
+          "locale": "en-XA",
+          "mode": "dark",
+          "panel": "controls",
+          "pass": true,
+          "preset": "lyt",
+          "width": 320
+        },
+        {
+          "locale": "en-XA",
+          "mode": "dark",
+          "panel": "about",
+          "pass": true,
+          "preset": "lyt",
+          "width": 320
+        },
+        {
+          "locale": "en-XA",
+          "mode": "dark",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "sage",
+          "width": 320
+        },
+        {
+          "locale": "en-XA",
+          "mode": "dark",
+          "panel": "language",
+          "pass": true,
+          "preset": "sage",
+          "width": 320
+        },
+        {
+          "locale": "en-XA",
+          "mode": "dark",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "sage",
+          "width": 320
+        },
+        {
+          "locale": "en-XA",
+          "mode": "dark",
+          "panel": "controls",
+          "pass": true,
+          "preset": "sage",
+          "width": 320
+        },
+        {
+          "locale": "en-XA",
+          "mode": "dark",
+          "panel": "about",
+          "pass": true,
+          "preset": "sage",
+          "width": 320
+        },
+        {
+          "locale": "ar",
+          "mode": "light",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "lyt",
+          "width": 320
+        },
+        {
+          "locale": "ar",
+          "mode": "light",
+          "panel": "language",
+          "pass": true,
+          "preset": "lyt",
+          "width": 320
+        },
+        {
+          "locale": "ar",
+          "mode": "light",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "lyt",
+          "width": 320
+        },
+        {
+          "locale": "ar",
+          "mode": "light",
+          "panel": "controls",
+          "pass": true,
+          "preset": "lyt",
+          "width": 320
+        },
+        {
+          "locale": "ar",
+          "mode": "light",
+          "panel": "about",
+          "pass": true,
+          "preset": "lyt",
+          "width": 320
+        },
+        {
+          "locale": "ar",
+          "mode": "light",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "sage",
+          "width": 320
+        },
+        {
+          "locale": "ar",
+          "mode": "light",
+          "panel": "language",
+          "pass": true,
+          "preset": "sage",
+          "width": 320
+        },
+        {
+          "locale": "ar",
+          "mode": "light",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "sage",
+          "width": 320
+        },
+        {
+          "locale": "ar",
+          "mode": "light",
+          "panel": "controls",
+          "pass": true,
+          "preset": "sage",
+          "width": 320
+        },
+        {
+          "locale": "ar",
+          "mode": "light",
+          "panel": "about",
+          "pass": true,
+          "preset": "sage",
+          "width": 320
+        },
+        {
+          "locale": "ar",
+          "mode": "dark",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "lyt",
+          "width": 320
+        },
+        {
+          "locale": "ar",
+          "mode": "dark",
+          "panel": "language",
+          "pass": true,
+          "preset": "lyt",
+          "width": 320
+        },
+        {
+          "locale": "ar",
+          "mode": "dark",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "lyt",
+          "width": 320
+        },
+        {
+          "locale": "ar",
+          "mode": "dark",
+          "panel": "controls",
+          "pass": true,
+          "preset": "lyt",
+          "width": 320
+        },
+        {
+          "locale": "ar",
+          "mode": "dark",
+          "panel": "about",
+          "pass": true,
+          "preset": "lyt",
+          "width": 320
+        },
+        {
+          "locale": "ar",
+          "mode": "dark",
+          "panel": "appearance",
+          "pass": true,
+          "preset": "sage",
+          "width": 320
+        },
+        {
+          "locale": "ar",
+          "mode": "dark",
+          "panel": "language",
+          "pass": true,
+          "preset": "sage",
+          "width": 320
+        },
+        {
+          "locale": "ar",
+          "mode": "dark",
+          "panel": "workspace",
+          "pass": true,
+          "preset": "sage",
+          "width": 320
+        },
+        {
+          "locale": "ar",
+          "mode": "dark",
+          "panel": "controls",
+          "pass": true,
+          "preset": "sage",
+          "width": 320
+        },
+        {
+          "locale": "ar",
+          "mode": "dark",
+          "panel": "about",
+          "pass": true,
+          "preset": "sage",
+          "width": 320
+        }
+      ],
+      "method": "DOM-driven checks in actual same-origin browser iframe; no native-device or trusted-keyboard claim",
+      "timestamp": "2026-11-18T13:22:58.201Z"
+    }
+  ]
+}

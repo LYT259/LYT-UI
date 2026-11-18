@@ -1,0 +1,10 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {defaults,readPrefs,writePrefs,validatePrefs,resolveLocale,searchLanguages} from '../demo/state.mjs';
+import {en,dictionaries,itemCount} from '../demo/i18n.mjs';
+test('malformed and blocked storage recover without pretending to save',()=>{assert.deepEqual(readPrefs({getItem:()=>'{broken'},'prefs'),defaults);assert.deepEqual(readPrefs(undefined,'prefs'),defaults);assert.equal(writePrefs(undefined,'prefs',defaults),false);assert.deepEqual(validatePrefs({mode:'invalid',locale:'xx',preset:'evil',notifications:2}),defaults);});
+test('stored mode is system, not resolved theme',()=>{const map=new Map(),s={getItem:k=>map.get(k),setItem:(k,v)=>map.set(k,v)};assert.equal(writePrefs(s,'prefs',{...defaults,preset:'sage'}),true);assert.equal(readPrefs(s,'prefs').mode,'system');assert.equal(readPrefs(s,'prefs').preset,'sage');});
+test('locale fallback respects script and ordered preference',()=>{assert.equal(resolveLocale('system',['zh-Hant','ar-EG']),'ar');assert.equal(resolveLocale('system',['zh-TW']),'en');assert.equal(resolveLocale('system',['zh-Hans-HK']),'zh-Hans');assert.equal(resolveLocale('system',['en-XA']),'en');assert.equal(resolveLocale('ar',['en']),'ar');});
+test('language search finds native, code, aliases and handles zero matches',()=>{assert.equal(searchLanguages('中文')[0].code,'zh-Hans');assert.equal(searchLanguages('ARABIC')[0].code,'ar');assert.equal(searchLanguages('zz-no-match').length,0);assert.equal(searchLanguages('')[0].code,'system');});
+test('all demonstration dictionaries have complete keys, without claiming review',()=>{for(const dict of Object.values(dictionaries))assert.deepEqual(Object.keys(dict).sort(),Object.keys(en).sort());});
+test('pluralization covers Arabic zero, one, two, few, many and other',()=>{const output=[0,1,2,3,11,100].map(n=>itemCount('ar',n));assert.equal(new Set(output).size,6);assert.equal(itemCount('en',1),'1 note');assert.equal(itemCount('en',2),'2 notes');assert.equal(itemCount('zh-Hans',2),'2 条笔记');});
