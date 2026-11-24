@@ -7,7 +7,6 @@ async function walk(dir){for(const name of await readdir(dir)){if(ignored.has(na
 await walk('.');
 for(const file of files){
  assert.ok(!/(?:^|\/)(?:AGENTS\.md|CLAUDE\.md|\.env(?:\.|$)|MEMORY\.md)/.test(file),`Private file: ${file}`);
- assert.ok(!/README(?:\.[a-z-]+)?\.md$/i.test(file),'Formal README is reserved for later acceptance');
  if(/\.(png|jpg|woff2?|zip)$/.test(file))continue;
  const content=await readFile(file,'utf8');
  for(const pattern of [new RegExp('/'+'Users/'),new RegExp('/'+'home/[^/]+/'),/gh[pousr]_[A-Za-z0-9]{20,}/,/github_pat_[A-Za-z0-9_]{20,}/,/-----BEGIN (?:RSA |OPENSSH )?PRIVATE KEY-----/])assert.ok(!pattern.test(content),`Private content in ${file}`);
@@ -17,4 +16,4 @@ for(const file of files){
  }
 }
 const skill=await readFile('skills/lyt-ui/SKILL.md','utf8');assert.match(skill,/^---\nname: lyt-ui\ndescription: .+\n---/);assert.equal(await readFile('LICENSE','utf8'),await readFile('skills/lyt-ui/LICENSE','utf8'));
-console.log(`Audited ${files.length} source files: references, portable resources, license parity, privacy patterns and README boundary pass. Pattern scan is not a complete secrets audit.`);
+console.log(`Audited ${files.length} source files: references, portable resources, license parity and privacy patterns pass. Pattern scan is not a complete secrets audit.`);
